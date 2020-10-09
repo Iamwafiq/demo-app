@@ -1,4 +1,4 @@
-# Set up react app with built in redux-saga
+# Set up react app with built in redux
 
 Quick Overview
 ` cd demo-app
