@@ -14,3 +14,4 @@ Packages
  - react-redux
  - toaster-js
  - emotion
+ - prettier
