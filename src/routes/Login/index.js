@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import LoginForm from './components';
 
 const Login = (props) => {
-  
-  return <LoginForm {...props} />
+  return <LoginForm {...props} />;
 };
 
 function mapStateToProps(props) {

@@ -6,7 +6,7 @@ import { useInjectReducer } from '../../reducers/injectReducer';
 
 const Home = (props) => {
   useInjectReducer({ key: 'registerReducer', reducer: registerReducer });
-  
+
   return <HomePage {...props} />;
 };
 

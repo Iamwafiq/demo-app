@@ -8,7 +8,7 @@ export const loginPage = css`
   background-color: #eff0f1;
   margin: auto;
   border-radius: 16px;
-  border: solid 1px rgb(2,0,36, 1);
+  border: solid 1px rgb(2, 0, 36, 1);
   position: relative;
   top: 10em;
 `;
@@ -20,7 +20,7 @@ export const loginBox = css`
 
 export const loginText = css`
   font-style: normal;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
   font-size: 26px;
   font-weight: 500;
   width: fit-content;
@@ -57,5 +57,5 @@ export const input = css`
   padding: 11px 10px;
   margin-bottom: 3px;
   background: #eaeaeaab;
-  border: solid 1px rgb(2,0,36, 0.3);
+  border: solid 1px rgb(2, 0, 36, 0.3);
 `;

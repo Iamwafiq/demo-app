@@ -8,10 +8,10 @@ export const loginPage = css`
   background-color: #eff0f1;
   margin: auto;
   border-radius: 16px;
-  border: solid 1px rgb(2,0,36, 1);
+  border: solid 1px rgb(2, 0, 36, 1);
   position: relative;
   top: 10em;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
 `;
 
 export const loginBox = css`
@@ -20,7 +20,7 @@ export const loginBox = css`
 `;
 export const loginText = css`
   font-style: normal;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
   font-size: 20px;
   font-weight: 500;
 `;
@@ -58,7 +58,7 @@ export const input = css`
   padding: 11px 10px;
   margin-bottom: 3px;
   background: #eaeaeaab;
-  border: solid 1px rgb(2,0,36, 0.3);
+  border: solid 1px rgb(2, 0, 36, 0.3);
   width: 43%;
   margin-right: 0.3em;
 `;
@@ -69,7 +69,7 @@ export const inputSingle = css`
   padding: 11px 10px;
   margin-bottom: 3px;
   background: #eaeaeaab;
-  border: solid 1px rgb(2,0,36, 0.3);
+  border: solid 1px rgb(2, 0, 36, 0.3);
 `;
 export const inputSingleText = css`
   box-shadow: unset;
@@ -78,32 +78,30 @@ export const inputSingleText = css`
   padding: 11px 10px;
   margin-bottom: 3px;
   background: #eaeaeaab;
-  border: solid 1px rgb(2,0,36, 0.3);
-  width:95%;
+  border: solid 1px rgb(2, 0, 36, 0.3);
+  width: 95%;
 `;
-export const radioText=css`
+export const radioText = css`
   margin: 0px 4em 0em 0;
-
-`
-export const singleRadio=css`
+`;
+export const singleRadio = css`
   margin: 0px 2em 0em 0;
-`
+`;
 export const inboxText = css`
   font-style: normal;
   font-size: 14px;
   text-transform: capitalize;
 `;
 export const imageBox = css`
-  height:5em;
-  border: solid 3px #070C42;
-  width:4.5em;
-  border-style: dotted
+  height: 5em;
+  border: solid 3px #070c42;
+  width: 4.5em;
+  border-style: dotted;
 `;
 export const addImage = css`
   margin: auto;
   width: 2em;
   height: 100%;
   margin-left: 1.25em;
-  cursor:pointer;
+  cursor: pointer;
 `;
-    

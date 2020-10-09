@@ -7,7 +7,7 @@ import { useInjectReducer } from '../../reducers/injectReducer';
 const Register = (props) => {
   useInjectReducer({ key: 'registerReducer', reducer: registerReducer });
 
-  return props.registerReducer?<RegisterForm {...props} />:""
+  return props.registerReducer ? <RegisterForm {...props} /> : '';
 };
 
 function mapStateToProps(props) {

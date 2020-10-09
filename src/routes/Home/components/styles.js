@@ -8,10 +8,10 @@ export const loginPage = css`
   background-color: #eff0f1;
   margin: auto;
   border-radius: 16px;
-  border: solid 1px rgb(2,0,36, 1);
+  border: solid 1px rgb(2, 0, 36, 1);
   position: relative;
   top: 10em;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
 `;
 
 export const loginBox = css`
@@ -20,7 +20,7 @@ export const loginBox = css`
 `;
 export const loginText = css`
   font-style: normal;
-  color: rgb(2,0,36);
+  color: rgb(2, 0, 36);
   font-size: 26px;
   font-weight: 500;
   width: fit-content;
@@ -74,30 +74,28 @@ export const inputSingleText = css`
   border-radius: 6px;
   padding: 11px 10px;
   margin-bottom: 3px;
-  width:95%;
+  width: 95%;
 `;
-export const radioText=css`
+export const radioText = css`
   margin: 0px 4em 0em 0;
-
-`
-export const singleRadio=css`
+`;
+export const singleRadio = css`
   margin: 0px 2em 0em 0;
-`
+`;
 export const inboxText = css`
   font-style: normal;
   font-size: 14px;
   text-transform: capitalize;
 `;
 export const imageBox = css`
-  height:5em;
+  height: 5em;
   // border: solid 1px #070C42;
-  width:4.5em;
+  width: 4.5em;
 `;
 export const addImage = css`
   margin: auto;
   width: 2em;
   height: 100%;
   margin-left: 1.25em;
-  cursor:pointer;
+  cursor: pointer;
 `;
-    
