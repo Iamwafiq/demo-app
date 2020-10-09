@@ -13,7 +13,6 @@ import {
   addImage,
 } from './styles';
 import { changePwd, reset } from '../../Register/actions';
-import plusIcon from '../../../images/plus-icon.svg';
 import { removeSession, getSession } from '../../../services/utils';
 import { Toast } from 'toaster-js';
 import 'toaster-js/default.scss';
@@ -104,6 +103,7 @@ const HomePage = (props) => {
                 className={addImage}
                 width="100%"
                 height="100%"
+                alt="icon"
                 src={
                   dataObj && dataObj.image
                     ? dataObj.image

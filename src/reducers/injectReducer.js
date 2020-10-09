@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import { useContext, useEffect} from 'react';
 import { ReactReduxContext } from 'react-redux';
 
 import getInjectors from './reducerInjectors';
